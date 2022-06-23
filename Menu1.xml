@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--管理员模块-->
+<Root>
+  <Node Text="账号管理" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="添加账号信息"  NavigateUrl="Admin/addUser.aspx?userId=add"/>
+    <Node Text="账号信息管理"  NavigateUrl="Admin/userManage.aspx"/>
+  </Node>
+  <Node Text="基础信息管理" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="添加仓库信息"  NavigateUrl="Admin/addShelf.aspx?shelfID=add"/>
+    <Node Text="仓库信息管理"  NavigateUrl="Admin/shelfManage.aspx"/>
+  
+    <Node Text="添加会员类型"  NavigateUrl="Admin/addVIPType.aspx?id=add"/>
+    <Node Text="管理会员类型"  NavigateUrl="Admin/VIPType.aspx"/>
+    <Node Text="添加开发公司" NavigateUrl="Admin/AddCompany.aspx?id=add"/>
+    <Node Text="管理开发公司" NavigateUrl="Admin/companyManage.aspx"/>
+
+
+    <Node Text="添加游戏类别" NavigateUrl="Admin/addGameType.aspx?id=add"/>
+    <Node Text="管理游戏类别" NavigateUrl="Admin/gameType.aspx"/>
+  </Node>
+  <Node Text="会员信息管理" ImageUrl="" NavigateUrl="" Expand="true">
+  
+    <Node Text="添加会员信息"  NavigateUrl="Admin/addVIPInfo.aspx?Userid=add"/>
+    <Node Text="管理会员信息"  NavigateUrl="Admin/VIPInfo.aspx"/>
+  </Node>
+  <Node Text="游戏信息管理" ImageUrl="" NavigateUrl="" Expand="true">
+
+    <Node Text="添加游戏信息"  NavigateUrl="Admin/addGameInfo.aspx?id=add"/>
+    <Node Text="管理游戏信息"  NavigateUrl="Admin/gameInfoManage.aspx"/>
+  
+  </Node>
+  <Node Text="信息查询" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="会员信息查询"  NavigateUrl="Admin/InqueVIP.aspx"/>
+    <Node Text="租赁查询"  NavigateUrl="Admin/cardRentSearch.aspx"/>
+    <Node Text="归还查询"  NavigateUrl="Admin/gameReturnSearch.aspx"/>
+    <Node Text="游戏查询"  NavigateUrl="Admin/InqueGameInfo.aspx"/>
+
+    <Node Text="罚款查询"  NavigateUrl="Admin/FaKuanInque.aspx"/>
+    <Node Text="过期查询"  NavigateUrl="Admin/GqInque.aspx"/>
+  </Node>
+  
+</Root>
